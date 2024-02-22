@@ -77,3 +77,61 @@ div.disocial{
 .isocial{
     width: 24px;
 }
+
+section.sec-1{
+    padding: 0 10px;
+}
+
+.poliimg{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+div.oqaconteceutext{
+    margin-bottom: 25px;
+}
+
+div.oqaconteceutext p{
+    margin-bottom: 14px;
+}
+
+section.sec-2{
+    padding: 0px 10px;
+}
+
+div.vparticipar{
+    margin-bottom: 25px;
+    border-left: 5px solid #333333;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    
+}
+
+div.vparticipar p{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+div.sec2text p{
+    margin-bottom: 14px;
+}
+
+div.dpromolink{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+a.promolink{
+    display: block;
+    text-decoration: none;
+    background-color: #0B3361;
+    color: white;
+    height: 70px;
+    border-radius: 15px;
+    padding: 20px 50px;
+}
