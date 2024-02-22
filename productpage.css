@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1;
+}
+
+header{
+    border-top: 5px solid red;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    height: 62px;
+    margin-bottom: 25px;
+}
+
+main{
+    padding: 0px 15px;
+}
+
+main h1{
+    font-size: 24px;
+    color: red;
+    margin-bottom: 5px;
+}
+
+main p.pubdate{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #4f5257;
+}
+
+main p.maintext{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+section.products{
+    padding: 0px 15px;
+}
+
+div.carrosel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+img.productimg{
+    width: 250px;
+}
+
+.carroselicon{
+    color: rgb(230, 227, 227);
+    cursor: pointer;
+}
+
+div.productsunidade{
+    border: 1px solid;
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+}
+
+div.productsunidade .produnidimg{
+    width: 90px;
+    height: 25px;
+}
+
+p.produnidp{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+div.productsunidade2{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 25px;
+}
+
+div.productinfo{
+    margin-bottom: 20px;
+}
+
+h1.productname{
+    color: #ee1c24;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p.productdesc{
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+p.beforeprice{
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+p.price{
+    color: #ee1c24;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div.tablehead{
+    border: 2px solid rgb(244, 230, 230);
+    height: 40px;
+    display: flex;
+    color: #ee1c24;
+    align-items: center;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+table{
+    margin-bottom: 20px;
+    border: 2px solid rgb(244, 230, 230);
+}
+
+tr.table-row{
+    background: #d7d4d470;
+    height: 52px;
+}
+
+tr.table-roww{
+    height: 52px;
+}
+
+table td{
+    border: 1px solid rgb(244, 230, 230);
+    padding: 0px 10px;
+}
+
+div.buydiv a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #ee1c24;
+    height: 46px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+div.buydiv p{
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
