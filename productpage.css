@@ -171,3 +171,7 @@ div.buydiv p{
     margin-bottom: 20px;
     font-weight: 700;
 }
+
+div.divider{
+    height: 60px;
+}

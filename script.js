@@ -15,15 +15,19 @@ function trocarimagem(){
     imagem.src = images[indiceAtual]
 }
 
-rightarrow.addEventListener("click", function(){
+function avancarimagem(){
     if(indiceAtual === 3){
-    indiceAtual = 0
-    console.log(indiceAtual)
-    }else{
-        indiceAtual += 1;
+        indiceAtual = 0
         console.log(indiceAtual)
-    }
-    trocarimagem();
+        }else{
+            indiceAtual += 1;
+            console.log(indiceAtual)
+        }
+        trocarimagem();
+}
+
+rightarrow.addEventListener("click", function(){
+    avancarimagem()
 })
 
 leftarrow.addEventListener("click", function(){
@@ -34,3 +38,5 @@ leftarrow.addEventListener("click", function(){
     }
     trocarimagem()
 })
+
+setInterval(avancarimagem, 5000);
