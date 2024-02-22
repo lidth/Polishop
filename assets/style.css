@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    height: 45px;
+}
+
+header p{
+    display: inline-block;
+    margin: 10px 5px 0px 5px;
+    font-weight: bold;
+}
+
+div.dheader{
+    background-color: #0B3361;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+main{
+    padding: 0 10px;
+}
+
+div.dmainh1text{
+    margin-bottom: 25px;
+}
+
+h1.mainh1text{
+    line-height: 1;
+    font-size: 28px;
+}
+
+div.dmainptext{
+    margin-bottom: 25px;
+}
+
+p.mainptext{
+    line-height: 1.3;
+    font-size: 16px;
+}
+
+div.compdate{
+    margin-bottom: 25px;
+}
+
+div.compdate p{
+    font-size: 11px;
+}
+
+div.dsocial{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.disocial{
+    cursor: pointer;
+    padding: 3px 0px;
+    width: 80px;
+    height: 33px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ececec;
+}
+.isocial{
+    width: 24px;
+}
